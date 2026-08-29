@@ -7,3 +7,43 @@ This version has breaking changes — APIs, conventions, and file structure may 
 This block is written and re-added by `next dev` — verify at `node_modules/next/dist/server/lib/generate-agent-files.js`. Removing it from a diff only re-creates the uncommitted change; committing it with your work keeps the tree clean.
 
 <!-- END:nextjs-agent-rules -->
+
+---
+
+<!-- BEGIN:project-rules -->
+
+# Project Rules — Personal Portfolio Website
+
+## 🚫 No Direct Code Changes Without Permission
+
+1. **DO NOT** create, modify, or delete any source code files directly.
+2. **DO NOT** run commands that modify the project (e.g., `npm install`, file writes) without explicit user approval.
+3. Instead, **present all code in the chat** as code blocks for the user to review.
+4. The user will **copy and paste** the code into the correct files themselves.
+5. Always specify the **exact file path** where the code should be placed.
+
+## 📋 Step-by-Step Guidance
+
+1. Guide the user **one step at a time** — do not dump all files at once.
+2. Clearly explain **what** each file does and **why** it's needed before showing code.
+3. After showing code, wait for the user to confirm they've added it before moving to the next step.
+4. If a step involves terminal commands (e.g., installing packages), show the command and let the user run it themselves.
+
+## 📐 Alignment with Implementation Plan
+
+1. All code and guidance **must align** with the approved implementation plan.
+2. Reference the plan's file structure, component names, and design decisions.
+3. If a deviation from the plan is needed, explain why and get user approval first.
+4. Follow the data architecture: JSON files for content, TypeScript interfaces for types.
+
+## 🎨 Design & Tech Stack
+
+- **Framework:** Next.js 16 (App Router)
+- **Styling:** Tailwind CSS v4
+- **Language:** TypeScript
+- **Animations:** Framer Motion
+- **Icons:** Lucide React
+- **Theme:** Dark/Light mode toggle via `next-themes`
+- **Data:** JSON files in `src/data/` with shared `types.ts`
+
+<!-- END:project-rules -->
