@@ -20,7 +20,7 @@ export function Navbar() {
                <a
                   href="/asset/Muhammad_Nabhan_Rifa'i_CV.pdf"
                   download
-                  className="group flex items-center gap-1.5 px-2.5 py-1.5 border-2 border-slate-300 dark:border-slate-700 bg-transparent text-xs font-pixel uppercase tracking-wider text-slate-600 dark:text-slate-400 hover:text-teal-700 dark:hover:text-amber-400 hover:border-teal-500 dark:hover:border-amber-400 transition-colors"
+                  className="group inline-flex items-center justify-center gap-1.5 h-9 px-2.5 border-2 border-slate-300 dark:border-slate-700 bg-transparent text-sm font-pixel uppercase tracking-wider text-slate-600 dark:text-slate-400 hover:text-teal-700 dark:hover:text-amber-400 hover:border-teal-500 dark:hover:border-amber-400 transition-colors"
                   title="Download CV"
                >
                   <span className="hidden sm:inline">Download</span>
@@ -30,7 +30,7 @@ export function Navbar() {
 
                <a
                   href="mailto:nabhanrifai@gmail.com"
-                  className="group flex items-center gap-1.5 px-2.5 py-1.5 border-2 border-slate-300 dark:border-slate-700 bg-transparent text-xs font-pixel uppercase tracking-wider text-slate-600 dark:text-slate-400 hover:text-teal-700 dark:hover:text-amber-400 hover:border-teal-500 dark:hover:border-amber-400 transition-colors"
+                  className="group inline-flex items-center justify-center gap-1.5 h-9 px-2.5 border-2 border-slate-300 dark:border-slate-700 bg-transparent text-sm font-pixel uppercase tracking-wider text-slate-600 dark:text-slate-400 hover:text-teal-700 dark:hover:text-amber-400 hover:border-teal-500 dark:hover:border-amber-400 transition-colors"
                   title="Send Email"
                >
                   <span className="hidden sm:inline">Email</span>
