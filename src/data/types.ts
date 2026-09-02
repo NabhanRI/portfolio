@@ -9,6 +9,17 @@ export interface NavItem {
    href: string;
 }
 
+export interface AboutHighlight {
+   text: string;
+   href?: string;
+}
+
+export interface AboutContent {
+   paragraphs: string[];
+   /** Words/phrases to emphasize inside paragraphs (case-sensitive match) */
+   highlights: string[];
+}
+
 export interface SkillCategory {
    title: string;
    count: string;

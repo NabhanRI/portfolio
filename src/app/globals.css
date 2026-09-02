@@ -24,7 +24,6 @@
     color: inherit;
   }
 
-  /* Custom subtle scrollbar — hard-edged, less “pill” */
   ::-webkit-scrollbar {
     width: 6px;
   }
