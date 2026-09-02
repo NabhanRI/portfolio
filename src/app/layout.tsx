@@ -20,8 +20,37 @@ const vt323 = VT323({
 });
 
 export const metadata: Metadata = {
-  title: "Portfolio | Full Stack Developer",
-  description: "Personal portfolio and software engineering showcase",
+  metadataBase: new URL("https://YOUR-DOMAIN.com"), // set after you deploy
+  title: {
+    default: "Muhammad Nabhan Rifa'i | Full Stack Developer",
+    template: "%s | Muhammad Nabhan Rifa'i",
+  },
+  description:
+    "Portfolio of Muhammad Nabhan Rifa'i (NabhanRI) — full stack JavaScript developer (React, Node.js, PostgreSQL) based in Indonesia. Projects, experience, and resume.",
+  keywords: [
+    "Muhammad Nabhan Rifa'i",
+    "NabhanRI",
+    "Nabhan Rifa'i",
+    "Full Stack Developer",
+  ],
+  authors: [{ name: "Muhammad Nabhan Rifa'i", url: "https://YOUR-DOMAIN.com" }],
+  creator: "Muhammad Nabhan Rifa'i",
+  icons: {
+    icon: "/asset/Frieren.jpg",
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://YOUR-DOMAIN.com",
+    siteName: "Muhammad Nabhan Rifa'i",
+    title: "Muhammad Nabhan Rifa'i | Full Stack Developer",
+    description:
+      "Full stack developer portfolio — React, Node.js, PostgreSQL. Indonesia.",
+    images: [{ url: "/asset/Frieren.jpg", width: 1200, height: 630, alt: "Muhammad Nabhan Rifa'i" }],
+  },
+  alternates: {
+    canonical: "https://YOUR-DOMAIN.com",
+  },
 };
 
 export default function RootLayout({

@@ -9,10 +9,8 @@ import { SocialLink, NavItem } from "@/data/types";
 
 const navItems: NavItem[] = [
    { name: "About", href: "#about" },
-   { name: "Skills", href: "#skills" },
    { name: "Experience", href: "#experience" },
    { name: "Projects", href: "#projects" },
-   { name: "Education", href: "#education" },
    { name: "Certifications", href: "#certifications" },
    { name: "Contact", href: "#contact" },
 ];
@@ -78,7 +76,8 @@ export function Sidebar() {
                   href="/"
                   className="hover:text-teal-600 dark:hover:text-amber-400 transition-colors"
                >
-                  Your Name
+                  Muhammad <br />
+                  Nabhan Rifa&apos;i
                </Link>
             </h1>
 

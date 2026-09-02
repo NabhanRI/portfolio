@@ -11,14 +11,14 @@ export function Navbar() {
          <div className="mx-auto max-w-screen-xl flex items-center justify-between px-4 sm:px-8 md:px-12 lg:px-24 h-14">
             <Link
                href="/"
-               className="font-pixel text-xl tracking-wide text-slate-900 dark:text-slate-100 hover:text-teal-600 dark:hover:text-amber-400 transition-colors"
+               className="font-pixel text-2xl tracking-wide text-slate-900 dark:text-slate-100 hover:text-teal-600 dark:hover:text-amber-400 transition-colors"
             >
-               yourname
+               nabhanri
             </Link>
 
             <div className="flex items-center gap-2 sm:gap-3">
                <a
-                  href="/asset/resume.pdf"
+                  href="/asset/Muhammad_Nabhan_Rifa'i_CV.pdf"
                   download
                   className="group flex items-center gap-1.5 px-2.5 py-1.5 border-2 border-slate-300 dark:border-slate-700 bg-transparent text-xs font-pixel uppercase tracking-wider text-slate-600 dark:text-slate-400 hover:text-teal-700 dark:hover:text-amber-400 hover:border-teal-500 dark:hover:border-amber-400 transition-colors"
                   title="Download CV"
@@ -29,7 +29,7 @@ export function Navbar() {
                </a>
 
                <a
-                  href="mailto:your-email@example.com"
+                  href="mailto:nabhanrifai@gmail.com"
                   className="group flex items-center gap-1.5 px-2.5 py-1.5 border-2 border-slate-300 dark:border-slate-700 bg-transparent text-xs font-pixel uppercase tracking-wider text-slate-600 dark:text-slate-400 hover:text-teal-700 dark:hover:text-amber-400 hover:border-teal-500 dark:hover:border-amber-400 transition-colors"
                   title="Send Email"
                >
