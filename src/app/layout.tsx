@@ -22,7 +22,7 @@ const vt323 = VT323({
 export const metadata: Metadata = {
   metadataBase: new URL("https://YOUR-DOMAIN.com"), // set after you deploy
   title: {
-    default: "Muhammad Nabhan Rifa'i | Full Stack Developer",
+    default: "nabhanri — Full Stack Developer",
     template: "%s | Muhammad Nabhan Rifa'i",
   },
   description:
@@ -64,7 +64,7 @@ export default function RootLayout({
       suppressHydrationWarning
       className={`${inter.variable} ${jetbrainsMono.variable} ${vt323.variable} scroll-smooth antialiased`}
     >
-      <body className="min-h-screen bg-slate-200 text-slate-900 selection:bg-teal-500/20 selection:text-teal-900 dark:bg-[#0a192f] dark:text-slate-200 dark:selection:bg-amber-400/20 dark:selection:text-amber-200 font-sans transition-colors duration-300">
+      <body className="min-h-screen bg-slate-200 bg-pixel-grid text-slate-900 selection:bg-teal-500/20 selection:text-teal-900 dark:bg-[#0a192f] dark:text-slate-200 dark:selection:bg-amber-400/20 dark:selection:text-amber-200 font-sans transition-colors duration-300">
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"

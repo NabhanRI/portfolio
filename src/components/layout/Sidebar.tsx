@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { FaDribbble, FaGithub, FaLinkedin } from "react-icons/fa6";
+import { TypewriterText } from "@/components/ui/TypewriterText";
 import socialsData from "@/data/socials.json";
 import { SocialLink, NavItem } from "@/data/types";
 
@@ -58,7 +59,7 @@ export function Sidebar() {
    };
 
    return (
-      <header className="pt-6 pb-8 lg:sticky lg:top-14 lg:flex lg:h-[calc(100vh-3.5rem)] lg:w-5/12 lg:flex-col lg:justify-between lg:pt-8 lg:pb-10">
+      <header className="pt-6 pb-8 lg:sticky lg:top-14 lg:self-start lg:flex lg:h-[calc(100vh-3.5rem)] lg:w-5/12 lg:flex-col lg:justify-between lg:pt-12 lg:pb-20">
          <div>
             <div className="relative h-20 w-20 sm:h-24 sm:w-24 overflow-hidden border-2 border-teal-500/70 dark:border-amber-400/60 mb-5">
                <Image
@@ -76,8 +77,7 @@ export function Sidebar() {
                   href="/"
                   className="hover:text-teal-600 dark:hover:text-amber-400 transition-colors"
                >
-                  Muhammad <br />
-                  Nabhan Rifa&apos;i
+                  <TypewriterText text={"Muhammad\nNabhan Rifa'i"} />
                </Link>
             </h1>
 
