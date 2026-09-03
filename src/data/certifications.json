@@ -1,0 +1,66 @@
+[
+    {
+        "id": "hackerrank-swe",
+        "name": "Software Engineer Intern",
+        "issuer": "HackerRank",
+        "date": "Aug 2026",
+        "featured": true,
+        "credentialUrl": "https://www.hackerrank.com/certificates/iframe/7ccf17f5dba9"
+    },
+    {
+        "id": "hackerrank-react",
+        "name": "React (Basic)",
+        "issuer": "HackerRank",
+        "date": "Aug 2026",
+        "featured": true,
+        "credentialUrl": "https://www.hackerrank.com/certificates/iframe/9adc617e5098"
+    },
+    {
+        "id": "hackerrank-js",
+        "name": "JavaScript (Basic)",
+        "issuer": "HackerRank",
+        "date": "Aug 2026",
+        "featured": false,
+        "credentialUrl": "https://www.hackerrank.com/certificates/iframe/df08049582e6"
+    },
+    {
+        "id": "hackerrank-css",
+        "name": "CSS (Basic)",
+        "issuer": "HackerRank",
+        "date": "Aug 2026",
+        "featured": false,
+        "credentialUrl": "https://www.hackerrank.com/certificates/iframe/150dfe1bd15e"
+    },
+    {
+        "id": "hackerrank-ps",
+        "name": "Problem Solving (Basic)",
+        "issuer": "HackerRank",
+        "date": "Aug 2026",
+        "featured": false,
+        "credentialUrl": "https://www.hackerrank.com/certificates/iframe/6adca0381338"
+    },
+    {
+        "id": "bnsp-dba",
+        "name": "Database Administrator",
+        "issuer": "Badan Nasional Sertifikasi Profesi (BNSP)",
+        "date": "May 2025",
+        "featured": true,
+        "credentialUrl": "https://media.licdn.com/dms/image/v2/D562DAQE1_DZ0ADMmSQ/profile-treasury-document-images_1920/B56ZuXF2QFG4As-/1/1767766455334?e=1789603200&v=beta&t=PmCFm52XhiMk8vthagFSUXtOHEhzp0CmBvIUJvDmdnI"
+    },
+    {
+        "id": "dicoding-ux",
+        "name": "Belajar Dasar UX Design",
+        "issuer": "Dicoding",
+        "date": "Sep 2024",
+        "featured": false,
+        "credentialUrl": "https://www.dicoding.com/certificates/4EXGQDY0EZRL"
+    },
+    {
+        "id": "bangkit-mobile",
+        "name": "Bangkit Academy — Mobile Development",
+        "issuer": "Google (Kampus Merdeka)",
+        "date": "Jul 2024",
+        "featured": true,
+        "credentialUrl": "https://media.licdn.com/dms/image/v2/D562DAQGWAlSnLRKsyg/profile-treasury-document-images_1920/profile-treasury-document-images_1920/1/1722784071232?e=1789603200&v=beta&t=FczwtpwJP7E4JLLGmUjlG4dOJ6KCX08kGcN2JtbhAsA"
+    }
+]

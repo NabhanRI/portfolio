@@ -66,4 +66,5 @@ export interface CertificationItem {
    issuer: string;
    date: string;
    credentialUrl?: string;
+   featured: boolean;
 }
