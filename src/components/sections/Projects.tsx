@@ -11,9 +11,14 @@ export function Projects() {
         <section id="projects" className="scroll-mt-20 lg:scroll-mt-24">
             <SectionHeading title="Projects" />
 
-            <div className="space-y-4">
-                {featured.map((item) => (
-                    <ProjectCard key={item.id} item={item} />
+            <div>
+                {featured.map((item, i) => (
+                    <div key={item.id} className="py-2">
+                        {i > 0 && (
+                            <hr className="border-slate-200 dark:border-slate-700/60 pb-2" />
+                        )}
+                        <ProjectCard item={item} />
+                    </div>
                 ))}
             </div>
 
