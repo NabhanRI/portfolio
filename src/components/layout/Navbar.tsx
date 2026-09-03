@@ -1,6 +1,5 @@
 "use client";
 
-import React from "react";
 import Link from "next/link";
 import { FiDownload, FiMail } from "react-icons/fi";
 import { ThemeToggle } from "@/components/ui/ThemeToggle";
@@ -9,12 +8,17 @@ export function Navbar() {
    return (
       <nav className="fixed top-0 left-0 right-0 z-50 border-b-2 border-slate-300 dark:border-slate-700 bg-slate-200/90 dark:bg-[#0a192f]/90 backdrop-blur-md transition-colors duration-300">
          <div className="mx-auto max-w-screen-xl flex items-center justify-between px-4 sm:px-8 md:px-12 lg:px-24 h-14">
-            <Link
+            <a
                href="/"
-               className="font-pixel text-2xl tracking-wide text-slate-900 dark:text-slate-100 hover:text-teal-600 dark:hover:text-amber-400 transition-colors"
+               onClick={(e) => {
+                  e.preventDefault();
+                  window.scrollTo({ top: 0, behavior: "smooth" });
+                  history.replaceState(null, "", "/");
+               }}
+               className="font-pixel text-2xl tracking-wide text-slate-900 dark:text-slate-100 hover:text-teal-600 dark:hover:text-amber-400 transition-colors cursor-pointer"
             >
                nabhanri
-            </Link>
+            </a>
 
             <div className="flex items-center gap-2 sm:gap-3">
                <a
