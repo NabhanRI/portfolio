@@ -30,9 +30,14 @@ export default function ArchivePage() {
                     All projects, sorted by month and year (newest first).
                 </p>
 
-                <div className="mt-10 space-y-4">
-                    {projects.map((item) => (
-                        <ProjectCard key={item.id} item={item} />
+                <div className="mt-10">
+                    {projects.map((item, i) => (
+                        <div key={item.id} className="py-2">
+                            {i > 0 && (
+                                <hr className="border-slate-200 dark:border-slate-700/60 pb-2" />
+                            )}
+                            <ProjectCard item={item} />
+                        </div>
                     ))}
                 </div>
             </main>
