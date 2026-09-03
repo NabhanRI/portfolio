@@ -36,6 +36,8 @@ export interface ProjectItem {
    image?: string;
    featured: boolean;
    year: string;
+   month: number;
+   period: string;
    madeAt?: string;
 }
 
