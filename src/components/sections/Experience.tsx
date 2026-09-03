@@ -10,9 +10,14 @@ export function Experience() {
         <section id="experience" className="scroll-mt-20 lg:scroll-mt-24">
             <SectionHeading title="Experience" />
 
-            <div className="space-y-4">
-                {experience.map((item) => (
-                    <ExperienceCard key={item.id} item={item} />
+            <div>
+                {experience.map((item, i) => (
+                    <div key={item.id} className="py-2">
+                        {i > 0 && (
+                            <hr className="border-slate-200 dark:border-slate-700/60 pb-2" />
+                        )}
+                        <ExperienceCard item={item} />
+                    </div>
                 ))}
             </div>
         </section>
