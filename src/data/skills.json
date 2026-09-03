@@ -1,0 +1,72 @@
+[
+    {
+        "id": "frontend",
+        "category": "Frontend",
+        "items": [
+            "React",
+            "Next.js",
+            "React Native",
+            "TypeScript",
+            "JavaScript",
+            "HTML",
+            "CSS",
+            "Tailwind CSS",
+            "Vite",
+            "Expo",
+            "Redux Toolkit"
+        ]
+    },
+    {
+        "id": "backend",
+        "category": "Backend",
+        "items": [
+            "Node.js",
+            "Express",
+            "GraphQL",
+            "Apollo",
+            "REST API",
+            "Socket.IO"
+        ]
+    },
+    {
+        "id": "database",
+        "category": "Database",
+        "items": [
+            "PostgreSQL",
+            "MongoDB",
+            "Mongoloquent",
+            "Redis"
+        ]
+    },
+    {
+        "id": "ai-ml",
+        "category": "AI / ML",
+        "items": [
+            "Google Gemini AI",
+            "LLM Evaluation"
+        ]
+    },
+    {
+        "id": "design",
+        "category": "Design",
+        "items": [
+            "Figma",
+            "UI/UX Design",
+            "Wireframing",
+            "Prototyping",
+            "Responsive Design"
+        ]
+    },
+    {
+        "id": "devops-tools",
+        "category": "DevOps & Tools",
+        "items": [
+            "Git",
+            "GitHub",
+            "AWS EC2",
+            "Cloudflare",
+            "Vercel",
+            "JWT"
+        ]
+    }
+]
