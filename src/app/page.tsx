@@ -6,6 +6,8 @@ import { Projects } from "@/components/sections/Projects";
 import { Skills } from "@/components/sections/Skills";
 import { Education } from "@/components/sections/Education";
 import { Certifications } from "@/components/sections/Certifications";
+import { Footer } from "@/components/layout/Footer";
+import { FadeInSection } from "@/components/ui/FadeInSection";
 
 export default function Home() {
   return (
@@ -20,12 +22,25 @@ export default function Home() {
             id="content"
             className="pb-16 lg:w-7/12 lg:py-12 space-y-12 sm:space-y-16"
           >
-            <About />
-            <Experience />
-            <Projects />
-            <Skills />
-            <Education />
-            <Certifications />
+            <FadeInSection>
+              <About />
+            </FadeInSection>
+            <FadeInSection delay={0.1}>
+              <Experience />
+            </FadeInSection>
+            <FadeInSection delay={0.1}>
+              <Projects />
+            </FadeInSection>
+            <FadeInSection delay={0.1}>
+              <Skills />
+            </FadeInSection>
+            <FadeInSection delay={0.1}>
+              <Education />
+            </FadeInSection>
+            <FadeInSection delay={0.1}>
+              <Certifications />
+            </FadeInSection>
+            <Footer />
           </main>
         </div>
       </div>
