@@ -12,8 +12,7 @@ const navItems: NavItem[] = [
    { name: "About", href: "#about" },
    { name: "Experience", href: "#experience" },
    { name: "Projects", href: "#projects" },
-   { name: "Certifications", href: "#certifications" },
-   { name: "Contact", href: "#contact" },
+   { name: "Certifications", href: "#certifications" }
 ];
 
 export function Sidebar() {
