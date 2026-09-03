@@ -34,7 +34,7 @@ export default function ArchivePage() {
                     {projects.map((item, i) => (
                         <div key={item.id} className="py-2">
                             {i > 0 && (
-                                <hr className="border-slate-200 dark:border-slate-700/60 pb-2" />
+                                <hr className="border-slate-300 dark:border-slate-700/60 pb-2" />
                             )}
                             <ProjectCard item={item} />
                         </div>
