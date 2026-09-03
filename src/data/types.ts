@@ -21,9 +21,9 @@ export interface AboutContent {
 }
 
 export interface SkillCategory {
-   title: string;
-   count: string;
-   skills: string[];
+   id: string;
+   category: string;
+   items: string[];
 }
 
 export interface ProjectItem {
