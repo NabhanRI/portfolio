@@ -62,6 +62,7 @@ export default function RootLayout({
     <html
       lang="en"
       suppressHydrationWarning
+      data-scroll-behavior="smooth"
       className={`${inter.variable} ${jetbrainsMono.variable} ${vt323.variable} scroll-smooth antialiased`}
     >
       <body className="min-h-screen bg-slate-200 bg-pixel-grid text-slate-900 selection:bg-teal-500/20 selection:text-teal-900 dark:bg-[#0a192f] dark:text-slate-200 dark:selection:bg-amber-400/20 dark:selection:text-amber-200 font-sans transition-colors duration-300">

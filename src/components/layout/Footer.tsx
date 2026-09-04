@@ -9,7 +9,7 @@ export function Footer() {
                     </span>
                 </p>
                 <p className="mt-2">
-                    {"< Fullstack JavaScript Developer />"}
+                    {"< built with Next.js, coffee, and too many tabs. />"}
                 </p>
                 <p className="mt-1">
                     © {new Date().getFullYear()} — Jakarta, Indonesia
