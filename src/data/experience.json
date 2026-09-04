@@ -1,0 +1,51 @@
+[
+    {
+        "id": "freelance-uiux",
+        "role": "UI/UX Designer",
+        "company": "Freelance",
+        "period": "Feb 2025 – Mar 2026",
+        "description": [
+            "Designed modern, responsive interfaces for client projects including PT Solid Utama Logistik, Hybrix Athlete, Aconsia, and Mediko PPDS.",
+            "Created wireframes, prototypes, and interactive mockups focused on usability, clarity, and accessibility.",
+            "Delivered design work for 4 client projects in under a year while managing overlapping timelines."
+        ],
+        "skills": [
+            "Figma",
+            "UI/UX Design",
+            "Wireframing",
+            "Prototyping",
+            "Responsive Design"
+        ]
+    },
+    {
+        "id": "diskominfo",
+        "role": "Electronic-Based Government Systems (SPBE)",
+        "company": "DISKOMINFO",
+        "period": "Nov 2024 – Dec 2024",
+        "description": [
+            "Collected, organized, and validated structured data for institutional and school websites.",
+            "Compared Large Language Models based on performance, accuracy, and efficiency.",
+            "Assisted in analyzing AI-generated data and preparing reports and basic visualizations."
+        ],
+        "skills": [
+            "Data Validation",
+            "LLM Evaluation",
+            "Reporting"
+        ]
+    },
+    {
+        "id": "telkomsel",
+        "role": "IT Operation Department",
+        "company": "Telkomsel",
+        "period": "Sep 2024 – Oct 2024",
+        "description": [
+            "Supported internal digital tools through user needs analysis and interface improvement opportunities.",
+            "Collaborated with UX and technical teams to gather feedback and document enhancement requirements."
+        ],
+        "skills": [
+            "User Research",
+            "Documentation",
+            "UX Collaboration"
+        ]
+    }
+]

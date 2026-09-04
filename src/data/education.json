@@ -1,0 +1,23 @@
+[
+    {
+        "id": "hacktiv8",
+        "degree": "Full Stack JavaScript Immersive Program",
+        "institution": "Hacktiv8",
+        "period": "May 2026 – Aug 2026",
+        "description": "Grade: A- "
+    },
+    {
+        "id": "udinus",
+        "degree": "Bachelor of Information System",
+        "institution": "Universitas Dian Nuswantoro",
+        "period": "Sep 2021 – Feb 2025",
+        "description": "GPA 3.86 / 4.00."
+    },
+    {
+        "id": "ugm",
+        "degree": "Student Exchange - Mathematics and Computer Science",
+        "institution": "Universitas Gadjah Mada",
+        "period": "Aug 2023 – Dec 2023",
+        "description": "GPA 3.48 / 4.00."
+    }
+]

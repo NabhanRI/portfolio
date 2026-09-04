@@ -1,0 +1,125 @@
+[
+    {
+        "id": "rac",
+        "title": "RAC (Recommendation Auto Car)",
+        "description": "AI-powered automotive discovery platform that turns budget, lifestyle, and vehicle prefs into personalized car recommendations and financing simulations.",
+        "technologies": [
+            "React",
+            "Vite",
+            "Node.js",
+            "Express",
+            "MongoDB",
+            "Mongoloquent",
+            "LangChain",
+            "Tailwind CSS"
+        ],
+        "githubUrl": "https://github.com/Final-Project-97/FinalProject97",
+        "image": "/asset/projects/rac.png",
+        "featured": true,
+        "year": "2026",
+        "month": 8,
+        "period": "Aug 2026",
+        "madeAt": "Hacktiv8"
+    },
+    {
+        "id": "shumi",
+        "title": "Shumi",
+        "description": "E-commerce platform for authentic Japanese anime merchandise and hobby collectibles, with server-side filtering, search, and wishlist management.",
+        "technologies": [
+            "Next.js",
+            "TypeScript",
+            "React",
+            "Tailwind CSS",
+            "Vercel"
+        ],
+        "githubUrl": "https://github.com/NabhanRI",
+        "liveUrl": "https://shumi-mauve.vercel.app/",
+        "image": "/asset/projects/shumi.png",
+        "featured": true,
+        "year": "2026",
+        "month": 8,
+        "period": "Aug 2026",
+        "madeAt": "Hacktiv8"
+    },
+    {
+        "id": "bluedit",
+        "title": "Bluedit",
+        "description": "A Reddit inspired mobile social app with a React Native client and GraphQL/MongoDB backend posts, comments, follows, and a Redis-cached feed.",
+        "technologies": [
+            "React Native",
+            "Expo",
+            "GraphQL",
+            "Apollo",
+            "MongoDB",
+            "Redis",
+            "JWT"
+        ],
+        "githubUrl": "https://github.com/NabhanRI/Bluedit-public",
+        "featured": false,
+        "year": "2026",
+        "month": 8,
+        "period": "Aug 2026",
+        "madeAt": "Hacktiv8"
+    },
+    {
+        "id": "doodly",
+        "title": "Doodly",
+        "description": "Real-time multiplayer drawing canvas where players sketch AI-generated topics together, with Socket.IO sync and Google Gemini scoring each round.",
+        "technologies": [
+            "React",
+            "Vite",
+            "Socket.IO",
+            "Node.js",
+            "Express",
+            "Google Gemini AI",
+            "Tailwind CSS"
+        ],
+        "githubUrl": "https://github.com/P2-HCK-97/doodly",
+        "liveUrl": "https://doodly-two.vercel.app/",
+        "image": "/asset/projects/doodly.png",
+        "featured": true,
+        "year": "2026",
+        "month": 7,
+        "period": "Jul 2026",
+        "madeAt": "Hacktiv8"
+    },
+    {
+        "id": "savebite",
+        "title": "SaveBite",
+        "description": "A foodrescue marketplace connecting surplus food sellers with buyers, with geolocation search, Gemini generated descriptions, and AWS EC2 deployment.",
+        "technologies": [
+            "React",
+            "Redux Toolkit",
+            "Node.js",
+            "Express",
+            "PostgreSQL",
+            "AWS EC2",
+            "Cloudflare"
+        ],
+        "githubUrl": "https://github.com/NabhanRI/SaveBite-public",
+        "liveUrl": "https://savebite.nabh.web.id/",
+        "image": "/asset/projects/save-bite.png",  
+        "featured": true,
+        "year": "2026",
+        "month": 7,
+        "period": "Jul 2026",
+        "madeAt": "Hacktiv8"
+    },
+    {
+        "id": "mediko-ppds",
+        "title": "Mediko PPDS UI/UX Redesign",
+        "description": "A UI/UX redesign of an e-learning platform for Indonesian doctors preparing for PPDS exams clearer course structure across desktop and mobile.",
+        "technologies": [
+            "Figma",
+            "UI/UX Design",
+            "Responsive Design"
+        ],
+        "liveUrl": "https://medikoppds.id/",
+        "image": "/asset/projects/mediko.jpg",
+        "featured": false,
+        "year": "2025",
+        "month": 12,
+        "period": "Dec 2025",
+        "madeAt": "Freelance"
+    }
+]
