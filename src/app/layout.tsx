@@ -20,7 +20,7 @@ const vt323 = VT323({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://YOUR-DOMAIN.com"), // set after you deploy
+  metadataBase: new URL("https://www.nabhanri.dev"),
   title: {
     default: "nabhanri — Full Stack Developer",
     template: "%s | Muhammad Nabhan Rifa'i",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     "Nabhan Rifa'i",
     "Full Stack Developer",
   ],
-  authors: [{ name: "Muhammad Nabhan Rifa'i", url: "https://YOUR-DOMAIN.com" }],
+  authors: [{ name: "Muhammad Nabhan Rifa'i", url: "https://www.nabhanri.dev" }],
   creator: "Muhammad Nabhan Rifa'i",
   icons: {
     icon: "/asset/Frieren.jpg",
@@ -41,15 +41,22 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://YOUR-DOMAIN.com",
-    siteName: "Muhammad Nabhan Rifa'i",
-    title: "Muhammad Nabhan Rifa'i | Full Stack Developer",
+    url: "https://www.nabhanri.dev",
+    title: "Muhammad Nabhan Rifa'i — Full Stack Developer",
+    siteName: "nabhanri.dev",
     description:
-      "Full stack developer portfolio — React, Node.js, PostgreSQL. Indonesia.",
-    images: [{ url: "/asset/Frieren.jpg", width: 1200, height: 630, alt: "Muhammad Nabhan Rifa'i" }],
+      "Full-stack JavaScript developer who ships reliable web products UI to backend. Based in Indonesia. Open to roles and collaborations.",
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Muhammad Nabhan Rifa'i — Full Stack Developer" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Muhammad Nabhan Rifa'i — Full Stack Developer",
+    description:
+      "Full-stack JavaScript developer who ships reliable web products UI to backend. Based in Indonesia. Open to roles and collaborations.",
+    images: ["/og-image.png"],
   },
   alternates: {
-    canonical: "https://YOUR-DOMAIN.com",
+    canonical: "https://www.nabhanri.dev",
   },
 };
 
