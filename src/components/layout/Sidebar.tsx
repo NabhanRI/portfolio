@@ -62,7 +62,7 @@ export function Sidebar() {
          <div>
             <div className="relative h-20 w-20 sm:h-24 sm:w-24 overflow-hidden border-2 border-teal-500/70 dark:border-amber-400/60 mb-5">
                <Image
-                  src="/asset/Frieren.jpg"
+                  src="/asset/nabhan_foto.png"
                   alt="Profile Photo"
                   fill
                   sizes="(max-width: 640px) 80px, 96px"
